@@ -2,9 +2,9 @@
 class Flow < Formula
   desc "AWS tooling for faster development."
   homepage "https://www.flowlab.no/"
-  url "https://github.com/flow-lab/flow/releases/download/v0.1.56/flow_Darwin_x86_64.tar.gz"
-  version "0.1.56"
-  sha256 "07292cb17ad6b43a4729d96352af6d076bffc6d9cea7a374912d2d2eaf4dce86"
+  url "https://github.com/flow-lab/flow/releases/download/v0.1.59/flow_Darwin_x86_64.tar.gz"
+  version "0.1.59"
+  sha256 "7025934578723fea29ea31405f11156dbbd261dd6e8e116d4e1ace760205eca7"
 
   def install
     bin.install "flow"

@@ -2,16 +2,16 @@
 class Flow < Formula
   desc "AWS tooling for faster development."
   homepage "https://www.flowlab.no/"
-  version "0.1.83"
+  version "0.1.84"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/flow-lab/flow/releases/download/v0.1.83/flow_Darwin_x86_64.tar.gz"
-    sha256 "fc6535102d650248dbf6fc66a1251e2501bada9601d440b84fbce50ae2bdb0bc"
+    url "https://github.com/flow-lab/flow/releases/download/v0.1.84/flow_Darwin_x86_64.tar.gz"
+    sha256 "af3d97e138c85dbcf75c88aac8b669d6a89f36b85f150830c2d0ebcc2d1fe48f"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/flow-lab/flow/releases/download/v0.1.83/flow_Linux_x86_64.tar.gz"
-      sha256 "07f0fc31a08e56d679d220a9402600ce1583535cbb715dd202fe206463f4b362"
+      url "https://github.com/flow-lab/flow/releases/download/v0.1.84/flow_Linux_x86_64.tar.gz"
+      sha256 "8052b66b29076f712294635cf94331c73afcc6ab107a7649e3d18870e818f4ee"
     end
   end
 

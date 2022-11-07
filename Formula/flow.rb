@@ -9,16 +9,16 @@ class Flow < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/flow-lab/flow/releases/download/0.3.1/flow_Darwin_x86_64.tar.gz"
-      sha256 "efe2c013d9015436ae679641882b36a6cf7034fc1d4ae69d677f2196893ae8f9"
+      url "https://github.com/flow-lab/flow/releases/download/v0.3.1/flow_Darwin_x86_64.tar.gz"
+      sha256 "bdd0d5d425c11ab5e65a24f3835bd320f50f67d5991ec3e667888d2de39a802b"
 
       def install
         bin.install "flow"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/flow-lab/flow/releases/download/0.3.1/flow_Darwin_aarch64.tar.gz"
-      sha256 "eaa715147b7848f834b00f28e3a1cbc2222a79cd5a8a6bb8426adae8210aadbb"
+      url "https://github.com/flow-lab/flow/releases/download/v0.3.1/flow_Darwin_aarch64.tar.gz"
+      sha256 "2ad1cfafe73b119ff06d36410242df6ba38080d1a096e03a7aefb3ec1d9f3bd3"
 
       def install
         bin.install "flow"
@@ -28,16 +28,16 @@ class Flow < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/flow-lab/flow/releases/download/0.3.1/flow_Linux_aarch64.tar.gz"
-      sha256 "d81234008e5a86f72592fa221e68cb7edecc79e29c3a4817aae3725b02f54480"
+      url "https://github.com/flow-lab/flow/releases/download/v0.3.1/flow_Linux_aarch64.tar.gz"
+      sha256 "3d47bfa637fcb0484836af649a6a557ac1c81320718989a00725baa4e3cc2de6"
 
       def install
         bin.install "flow"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/flow-lab/flow/releases/download/0.3.1/flow_Linux_x86_64.tar.gz"
-      sha256 "4815a547764757990580bb88400bb81581d7fe35b0371966a8487e1df89e60fa"
+      url "https://github.com/flow-lab/flow/releases/download/v0.3.1/flow_Linux_x86_64.tar.gz"
+      sha256 "87d0c065d9a04842176ee2e3583eae67b95e25b7666131261ef7e93a2a6791e1"
 
       def install
         bin.install "flow"
